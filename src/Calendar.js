@@ -2,18 +2,14 @@ import React from 'react';
 
 
 const Calendar = () => {
-const [calendar, setCalendar] = useState()
+// const [calendar, setCalendar] = useState()
 
-    return (
-        <section className="calendar-container">
-            {props.maxDate}=2021;
-            <Calendar 
+        <section>
             
             
-            />
-            
+
+
         </section>
-    );
 };
 
 export default Calendar;

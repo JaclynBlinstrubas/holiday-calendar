@@ -12,11 +12,18 @@ function App() {
 
   return (
     <div>
+
+      <header className="Header">
+        <h1>
+          <a href="/" style={{textDecoration: 'none', color : 'black'}}>Holidays</a>
+          <span style={{float: 'right'}}>2021</span>
+        </h1>
+      </header>
       
 
-    <Header />
+    <Route path="/" exact component={Holiday} />
+    
     <Calendar />
-    <Holiday />
     <HolidayList />
 
     </div>
