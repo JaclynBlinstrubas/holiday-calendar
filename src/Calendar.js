@@ -1,9 +1,9 @@
 import React from 'react';
 
 
-const Calendar = () => {
-// const [calendar, setCalendar] = useState()
 
+const Calendar = ( {calendar} ) => {
+const [calendar, setCalendar] = useState ("")
         <section>
             
             

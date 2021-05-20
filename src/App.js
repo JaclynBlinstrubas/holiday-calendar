@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 import Calendar from 'react-calendar';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import Header from './Header';
+import Months from './Months'
 import Holiday from './Holiday';
 import HolidayList from './HolidayList';
 import './App.css';
 
 function App() {
-
-  const [value, onChange] = useState(new Date());
+const [calendar, setCalendar] = useState ("")
 
   return (
     <div>
@@ -20,10 +19,9 @@ function App() {
         </h1>
       </header>
       
-
     <Route path="/" exact component={Holiday} />
-    
-    <Calendar />
+    <Months />
+    <Calendar calendar={calendar}/>
     <HolidayList />
 
     </div>
