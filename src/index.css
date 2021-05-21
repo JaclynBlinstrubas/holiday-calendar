@@ -29,7 +29,6 @@ code {
   height: 30vh;
   margin: 4rem;
   display: grid;
-  border: 1px dashed black;
 }
 
 .month-buttons {
@@ -38,4 +37,5 @@ code {
   padding: 3rem;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 20px;
 }

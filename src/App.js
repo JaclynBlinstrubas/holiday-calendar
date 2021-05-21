@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Calendar from 'react-calendar';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import Calendar from './Calendar';
+import { Switch, Route, Redirect, Link } from 'react-router-dom';
 import Months from './Months'
 import Holiday from './Holiday';
 import HolidayList from './HolidayList';
@@ -14,15 +14,13 @@ const [calendar, setCalendar] = useState ("")
 
       <header className="Header">
         <h1>
-          <a href="/" style={{textDecoration: 'none', color : 'black'}}>Holidays</a>
+          <Link to="/" style={{textDecoration: 'none', color : 'black'}}>Holidays</Link>
           <span style={{float: 'right'}}>2021</span>
         </h1>
       </header>
       
-    <Route path="/" exact component={Holiday} />
-    <Months />
-    <Calendar calendar={calendar}/>
-    <HolidayList />
+    <Route path="/" exact component={Months} />
+    <Route path="/calendar/:month" render={ (routerProps) => <Calendar match={routerProps.match} />} />
 
     </div>
   );
