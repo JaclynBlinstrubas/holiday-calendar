@@ -26,13 +26,12 @@ code {
 }
 
 #month-container {
-  height: 30vh;
-  margin: 4rem;
-  display: grid;
+  /* display: grid; */
 }
 
 .month-buttons {
   display: grid;
+  width: 100%;
   font-size: 1.5rem;
   padding: 3rem;
   grid-template-columns: 1fr 1fr 1fr;
