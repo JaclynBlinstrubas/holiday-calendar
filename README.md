@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+![Screen Shot 2021-05-25 at 4 34 18 PM](https://user-images.githubusercontent.com/80438770/119565452-f3902480-bd77-11eb-919f-e235b80802f6.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Holiday Calendar app is a useful tool to quickly find, or leisurely look for, holidays throughout the year!
 
-## Available Scripts
+## ![Screen Shot 2021-05-25 at 4 49 42 PM](https://user-images.githubusercontent.com/80438770/119566499-36063100-bd79-11eb-96c3-e15c64fc576c.png)
+- HTML
+- CSS
+- ReactJS
+- NPM Package : [React Calendar](https://www.npmjs.com/package/react-calendar)
+- [Holiday API](https://app.abstractapi.com/api/holidays/)
 
-In the project directory, you can run:
+## ![Screen Shot 2021-05-25 at 4 51 41 PM](https://user-images.githubusercontent.com/80438770/119566742-7d8cbd00-bd79-11eb-8435-1ae54c5f004e.png)
+[Click here](https://jbl-holiday-calendar.herokuapp.com/) to access the calendar! 
 
-### `npm start`
+This is your main page, which displays the months of the current year. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Choose a month and you'll navigate to the corresponding calendar.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Screen Shot 2021-05-25 at 4 57 48 PM](https://user-images.githubusercontent.com/80438770/119567464-5a164200-bd7a-11eb-9eac-5f5520e502b5.png)
 
-### `npm test`
+Here is the calender view of the month you've chosen! 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Next, click on a day to see the holiday/s for that specific day. 
 
-### `npm run build`
+![Screen Shot 2021-05-25 at 5 04 57 PM](https://user-images.githubusercontent.com/80438770/119568315-5d5dfd80-bd7b-11eb-8dd0-20763ea2b71b.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Since we clicked on 31, here are the holidays that fall on October 31. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screen Shot 2021-05-25 at 5 08 18 PM](https://user-images.githubusercontent.com/80438770/119568733-d0677400-bd7b-11eb-927b-33b94845a038.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Click on the word  ![Screen Shot 2021-05-25 at 5 12 30 PM](https://user-images.githubusercontent.com/80438770/119569192-69968a80-bd7c-11eb-80b8-ead90a02b935.png)  to return back to the main page. 
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## ![Screen Shot 2021-05-25 at 4 48 35 PM](https://user-images.githubusercontent.com/80438770/119566363-0e16cd80-bd79-11eb-861d-496ad945f193.png)
+- As a user, I want to be able to choose which month I would like to see the holidays for.
+- As a user, I want to be able to choose the day I would like to see the holidays for.
+- As a user, I want to be able to navigate back to the main page, or through the days and months pages, to choose a different date.
+- As a user, I want indication if I selected a date that doesn't exist (ie: February 30).
+- As a user, I would like the app to be visually aesthetic. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ![Screen Shot 2021-05-25 at 5 20 36 PM](https://user-images.githubusercontent.com/80438770/119570009-87182400-bd7d-11eb-93ce-c1937ba8b5bc.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Screen Shot 2021-05-25 at 5 21 11 PM](https://user-images.githubusercontent.com/80438770/119570073-9dbe7b00-bd7d-11eb-98e9-05666c5d9b44.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Screen Shot 2021-05-25 at 5 21 42 PM](https://user-images.githubusercontent.com/80438770/119570114-ae6ef100-bd7d-11eb-8926-116a6254c3f9.png)
 
-## Learn More
+![Screen Shot 2021-05-25 at 5 21 58 PM](https://user-images.githubusercontent.com/80438770/119570137-b7f85900-bd7d-11eb-9942-732ba283b25a.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
