@@ -31,9 +31,12 @@ const HolidayDay = ({match}) => {
                 <div>
                     {holidayDay.map((day) => {
                         return (
-                            <p>
-                                holiday: {day.name}
-                                
+                            <p style={{textAlign: "center", fontSize: "22px", padding: "20px"}}>
+                                <b>{day.name}</b><br />
+                                country: {day.country}<br />
+                                month: {day.date_month}<br />
+                                day: {day.date_day}<br />
+                                day of the week: {day.week_day}<br />
                             </p>
                         )
                     })}
