@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 
 const Months = () => {
+    
     return (
         <div>
             <section id="month-container">
@@ -47,5 +48,6 @@ const Months = () => {
         </div>
     );
 };
+
 
 export default Months;

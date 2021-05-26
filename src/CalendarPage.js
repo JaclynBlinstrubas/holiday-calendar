@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Calendar from 'react-calendar';
-import { Switch, Route, Redirect, Link, useHistory } from 'react-router-dom';
-
+import { Route, Link, useHistory } from 'react-router-dom';
 
 const CalendarPage = ( {match} ) => {
     let history =  useHistory()
@@ -13,18 +12,15 @@ const CalendarPage = ( {match} ) => {
         const fullDate = new Date(dt)
         const theDay = fullDate.getDate()
 
-        console.log(month, theDay)
         let path = `/calendar/${month+1}/${theDay}`
-        history.push(path)
+            history.push(path)
     }
-
-
 
         return (
             <section>
                 <Calendar 
-                activeStartDate={startDate}
-                onClickDay={getTheDate}/>
+                    activeStartDate={startDate}
+                    onClickDay={getTheDate}/>
             </section>
         )
 };

@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import CalendarPage from './CalendarPage';
-import { Switch, Route, Redirect, Link } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import Months from './Months'
 import HolidayDay from './HolidayDay';
-import HolidayMonth from './HolidayMonth'
 import './App.css';
 
 function App() {
