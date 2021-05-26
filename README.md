@@ -48,4 +48,6 @@ Click on the word  ![Screen Shot 2021-05-25 at 5 12 30 PM](https://user-images.g
 
 ![Screen Shot 2021-05-25 at 5 37 46 PM](https://user-images.githubusercontent.com/80438770/119571896-ed05ab00-bd7f-11eb-8d56-e73f869c859a.png)
 
-
+- I was able to reach all of my MVPs, but I am going to work on adding an option to navigate to other countries holidays. The API holds over 200 countries holiday information, and I think that would be a great addition to this app. 
+- I had difficulties retrieving data from my API. I was missing a few key pieces of code to connect the dots (ie: {match} as a prop). I understand the goal of API's and how we use them, but I am still trying to understand the coding process of it. 
+- I also had trouble with my own expectations. I wanted to prove to myself that I could piece this together on my own, but, I had to come to terms with I'm just not there yet. And I have to practice being okay with that. 
