@@ -26,7 +26,6 @@ button {
 
 #month-container {
   /* display: grid; */
-
 }
 
 .month-buttons {
@@ -38,7 +37,7 @@ button {
   grid-gap: 20px;
 }
 
-/* =================*/
+/* react calendar imported css */
 
 .react-calendar {
   width: 75%;
@@ -158,4 +157,14 @@ button {
 }
 .react-calendar--selectRange .react-calendar__tile--hover {
   background-color: #eae0d5;
+}
+
+@media only screen and (max-width: 600px){
+  .month-buttons {
+    display: grid;
+    font-size: 1.5rem;
+    margin: auto;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
 }
